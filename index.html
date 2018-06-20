@@ -60,18 +60,18 @@
                                 <span></span>
                             </div>
                         </div>
-                        <div class="back">
-                            <div class="inner">
+                        <div class="back" onmouseover="toggle_visibility('mover');" onmouseout="close_visibility('mover');">
+                            <div class="inner" >
 
                                     <!-- <a href="#bar" name="bar" onclick="toggle_visibility('foo');">Read more...</a> -->
                                     <!-- <div id="foo" style="display:none;">Show this FOO.</div> -->
 
-                                    <a href="#bar" name="bar" onclick="toggle_visibility('mover');">Resume</a>
-                                    <div style="display:none" id="mover" class="tooltip">
+                                    <!-- <a href="#bar" name="bar" onclick="toggle_visibility('mover');">Resume</a> -->
+                                    <div style="display:none"  id="mover" class="tooltip">
                                         
                                         <a href="https://s3.us-east-2.amazonaws.com/images-jb/6.14Resume.pdf" download target="_blank"><img src="https://s3.us-east-2.amazonaws.com/images-jb/6.14Resume+copy.jpg" height=800px width=618px >
                                         </a> 
-                                        <span class="tooltiptext">Click Image To Download PDF</span>
+                                        <span class="tooltiptext">Click To Download PDF ----></span>
                                     </div>
                                 </div>
                         </div>
@@ -79,15 +79,10 @@
                 </div>
             </div>
     </div>
-    <script type="text/javascript">
-        function toggle_visibility(id) {
-           var e = document.getElementById(id);
-           if(e.style.display == 'none')
-              e.style.display = 'block';
-           else
-              e.style.display = 'none';
-        }
-    </script>
+    <!-- <script type="text/javascript">
+        
+    </script> -->
+    <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
