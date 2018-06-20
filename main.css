@@ -9,21 +9,32 @@
             box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    margin: 0%;
+    background-image: url("https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=1205651268&view=att&th=1641f1766daf8257&attid=0.1&disp=safe&realattid=1641f1730fd35ac3bf11&zw&saddbat=ANGjdJ-lG3rnBwJ2WrwkoUPd2o7ocHgGTxxB9Zr30gzCrM6wgAsF09HWulntlwE6Kj2PewVXg8cxQGF_HIn5FfNj0UdhlG_5qEN4tJ7NBZmHJa6ITRdkug3WFT7qhHctlKhGAGhKmCmjwTCeYv4a78ZkZtH5eKDY5O5ikBrPcfQUF2rKBtQQ4_W5vx15dPNBRte8_shHO7no_NmHWuFfF4RBzTBTq7uuAzVBf6eVnr-bgpANRbnFBgMNJQfGYWArEOYwaWpQejFoWndXskPJZNCno0YaGqiXZuM3_9JzgT2JU2OFRbEom2T0NMLG-2LV96R_hRdwtgZL9jBEfLMyNAnyAEqlzoQh2ynTla3RCpH3bnT677LDkBEZa4crAUVGkROl2bJNLOjTYMO2kdmCjB5wAiTk7kStiJx4qWVb1oee_NZagVdY5lik3rmTOBwjjUDG9IHFO5d8joedIKfHVduoHxlhbg_bTx3JPiD_M1Afwxv-tlyfItIIyfmjGg8R-MFI0fS7wxs5Xk7oMy9Ubmb0mRFIuk_gld2tmskRoGco9Wb4OFyld2ZlteYm_6SQO7Z8_5eL8561FOaCKMy__nMCNw_JuThN5H9viyAjYlutcEZuo_oM324SxRYwFbg")  ;
+    background-size: 100% 700px;
+    justify-content: center;
+    flex-direction: column;
+}
+
 h1 {
     text-align: center;
     font-size: 575%;
-    color: #4A4444;
+    color: yellow;
     text-transform: uppercase;
     letter-spacing: 1%;
-    margin: 25% 0;
+    margin: 15% 0;
 }
 
 h2 {
     text-align: center;
     font-size: 275%;
-    color: rgb(120, 220, 245);
+    background-color: #C6D4DF;
+    color: rgb(50, 93, 104);
     text-transform: uppercase;
     letter-spacing: 1%;
+    
 }
 
 .contact {
@@ -36,6 +47,12 @@ h2 {
 
 li {
     padding: 10px 0 10px 0;
+}
+
+.js-emailcopybtn {
+    font-size: 15px;
+    width: 85%;
+    background-color: transparent:
 }
 
 /* unvisited link */
@@ -61,9 +78,8 @@ a:active {
 /* Start Parallax */
 
 .parallax {
-    /* background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%; */
-    background: url("https://s3.us-east-2.amazonaws.com/jeff-burns/DenverSunsetPlatteRiver.JPG") repeat fixed 100%;
-    background-size: 1300px 780px;
+    background: url("https://s3.us-east-2.amazonaws.com/images-jb/downtownsunset.jpeg") repeat fixed 100%;
+    background-size: 100% 780px;
 }
 
 .parallax-inner {
@@ -88,11 +104,16 @@ a:active {
     text-align: center;
     margin: 2rem 0;
   }
+
   
   .wrapper{
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 0 0 -10;
+    height: 600px;
     /* max-width: 80rem; */
+    background-image: url("https://s3.us-east-2.amazonaws.com/images-jb/aspentrees.jpeg");
+    background-size: 100% 700px;
+
   }
   
   .cols{
@@ -107,8 +128,10 @@ a:active {
   }
   
   .col{
-    width: calc(35% - 2rem);
+    width: calc(40% - 2rem);
     margin: 1rem;
+    margin-top: 14%;
+
     cursor: pointer;
   }
   
@@ -274,8 +297,8 @@ a:active {
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
-    background-color: black;
+    width: 170px;
+    background-color: rgb(129, 116, 116);
     color: #fff;
     text-align: center;
     padding: 5px 0;
@@ -298,9 +321,9 @@ a:active {
     position: absolute;
     /* left: 20%; */
     margin-left: -170px;
-    bottom: -180px;
+    bottom: -300px;
     z-index: -1;
-      animation: move3 2s linear 1 forwards; 
+      animation: move3 1.5s linear 1 forwards; 
   }
 
   @keyframes move3 {
