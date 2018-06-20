@@ -23,7 +23,7 @@
                 <div class="container">
                     <div class="front" style="background-image: url(https://images.unsplash.com/photo-1468436139062-f60a71c5c892?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d3d2f08aa6cebedae247e1ac4f60bb6a&auto=format&fit=crop&w=1050&q=80)">
 
-                        <!-- https://unsplash.it/500/500/ -->
+                    
                         <div class="inner">
                             <h3>Contact Info</h3>
                             <span></span>
@@ -47,8 +47,41 @@
                 </div>
             </div>
         </div>
-    </div>
+        <div class="cols">
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(https://images.unsplash.com/photo-1468436139062-f60a71c5c892?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d3d2f08aa6cebedae247e1ac4f60bb6a&auto=format&fit=crop&w=1050&q=80)">
+    
+                            
+                            <div class="inner">
+                                <h3>Resume</h3>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
 
+                                    <!-- <a href="#bar" name="bar" onclick="toggle_visibility('foo');">Read more...</a> -->
+                                    <!-- <div id="foo" style="display:none;">Show this FOO.</div> -->
+
+                                    <a href="#bar" name="bar" onclick="toggle_visibility('mover');">Resume</a>
+                                    <img src="https://s3.us-east-2.amazonaws.com/images-jb/6.14Resume+copy.jpg" height=800px width=618px style="display:none" id="mover">
+      <!-- maybe add anchor/download tag inside this </img> -->
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script type="text/javascript">
+        function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'none')
+              e.style.display = 'block';
+           else
+              e.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>

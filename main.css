@@ -1,8 +1,11 @@
+@import "compass/css3";
+
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
-    /* background: rgba(255,255,255,0.3); */
+    
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
@@ -261,3 +264,24 @@ a:active {
       margin: 0 0 2rem 0;
     }
   }
+
+
+  #mover {
+    /* width: 850px; */
+    position: absolute;
+    /* left: 20%; */
+    margin-left: -170px;
+    bottom: -160px;
+    z-index: -1;
+      animation: move3 2s linear 1 forwards; 
+  }
+
+  @keyframes move3 {
+    from { margin-left: -170px; z-index: -1; transform: scale(0); }
+    25% { margin-left: -160px; z-index: 0; transform: scale(.25); }
+    50% { margin-left: -150px; z-index: 1; transform: scale(.5); }
+    99% { margin-left: -125px; z-index: 2; transform: scale(.75); }
+    99% { margin-left: -125px; z-index: 2; transform: scale(.83); }
+    to { margin-left: -125px; z-index: 2; transform: scale(.84); }
+  }
+
