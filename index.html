@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jeffrey Burns</title>
     <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="compass/css3"> -->
+
 </head>
 
 <body>
@@ -65,8 +67,12 @@
                                     <!-- <div id="foo" style="display:none;">Show this FOO.</div> -->
 
                                     <a href="#bar" name="bar" onclick="toggle_visibility('mover');">Resume</a>
-                                    <img src="https://s3.us-east-2.amazonaws.com/images-jb/6.14Resume+copy.jpg" height=800px width=618px style="display:none" id="mover">
-      <!-- maybe add anchor/download tag inside this </img> -->
+                                    <div style="display:none" id="mover" class="tooltip">
+                                        
+                                        <a href="https://s3.us-east-2.amazonaws.com/images-jb/6.14Resume.pdf" download target="_blank"><img src="https://s3.us-east-2.amazonaws.com/images-jb/6.14Resume+copy.jpg" height=800px width=618px >
+                                        </a> 
+                                        <span class="tooltiptext">Click Image To Download PDF</span>
+                                    </div>
                                 </div>
                         </div>
                     </div>
