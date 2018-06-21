@@ -51,10 +51,17 @@ li {
 
 .js-emailcopybtn {
     font-size: 15px;
-    width: 85%;
-    background-color: transparent:
+    color: red;
+    width: 35%;
+    background-color: transparent;
+    margin-left: 0;
 }
 
+#copied {
+    font-size: 25px;
+    color: #cedce7;
+    margin-left: 40%;
+}
 /* unvisited link */
 a:link {
     color: #FF0000;
@@ -131,7 +138,6 @@ a:active {
     width: calc(40% - 2rem);
     margin: 1rem;
     margin-top: 14%;
-
     cursor: pointer;
   }
   
@@ -140,6 +146,7 @@ a:active {
             transform-style: preserve-3d;
       -webkit-perspective: 1000px;
               perspective: 1000px;
+
   }
   
   .front,
