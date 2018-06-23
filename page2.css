@@ -1,0 +1,89 @@
+body {
+  margin: -0.5% 0 0 0;
+  /* overflow-y: auto;
+  overflow-x: hidden;
+  width: 90%;
+  height: 48vw;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100%); */
+}
+
+div {
+  margin: 0;
+  color: #ddd;
+  height: 720px;
+}
+
+h3 {
+  margin-left: 1%;
+  margin-top: 1%;
+  position: fixed;
+}
+
+.section01 {
+  background: url("https://source.unsplash.com/1600x900/?star,night") no-repeat
+    center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.section02 {
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.section02 div {
+  opacity: 0.5;
+  height: 250px;
+  line-height: 250px;
+  background: rgba(255, 255, 255, 0.5)
+    url("https://source.unsplash.com/1600x900/?star,night") no-repeat center
+    center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.section03::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://s3.us-east-2.amazonaws.com/images-jb/downtownsunset.jpeg")
+    no-repeat center center;
+  background-size: cover;
+}
+
+.section04 {
+  height: 250px;
+  background-color: rgba(255, 225, 185, 1);
+}
+.section04 div {
+  opacity: 0.5;
+  height: 250px;
+  line-height: 250px;
+  background: url("https://source.unsplash.com/1600x900/?star,sky") no-repeat
+    center center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section05 {
+  background: url("https://source.unsplash.com/1600x900/?star,sky") no-repeat
+    center center;
+  background-attachment: fixed;
+  background-size: cover;
+}

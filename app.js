@@ -1,3 +1,6 @@
+
+
+
 function toggle_visibility(id) {
     var e = document.getElementById(id);
     if(e.style.display == 'none')
@@ -25,7 +28,9 @@ copyEmailBtn.addEventListener('click', function(event) {
     var msg = successful ? 'successful' : 'unsuccessful';  
     console.log('Copy email command was ' + msg);
     var copied = document.getElementById('copied')  
-    copied.textContent = "Copied!"
+        copied.textContent = "Copied!"
+    
+    
   } catch(err) {  
     console.log('Oops, unable to copy');  
   }  
@@ -34,3 +39,9 @@ copyEmailBtn.addEventListener('click', function(event) {
   // removeRange(range) when it is supported  
   window.getSelection().removeAllRanges();  
 });
+
+function close_copied(id) {
+    var e = document.getElementById(id);
+     return e.style.display = 'none';
+}
+
