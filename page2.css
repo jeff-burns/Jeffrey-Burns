@@ -9,49 +9,104 @@ body {
 }
 
 div {
-  margin: 0;
-  color: #ddd;
+  margin-top: 0;
+  /* this is coloring the text */
+  color: #ddd; 
   height: 720px;
 }
 
-h3 {
+h2 {
   margin-left: 1%;
   margin-top: 1%;
   position: fixed;
+  color: white;
+
 }
 
 .section01 {
-  background: url("https://source.unsplash.com/1600x900/?star,night") no-repeat
+  background: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&h=350") no-repeat
     center center;
   background-attachment: fixed;
   background-size: cover;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
-.sticky + .content {
-  padding-top: 102px;
-}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* .sticky + .content {
+    padding-top: 102px;
+  } */
 
 .section02 {
   height: 250px;
-  background-color: rgba(255, 255, 255, 0.5);
+  /* background-color: rgba(255, 255, 255, 0.5); */
 }
 .section02 div {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   height: 250px;
-  line-height: 250px;
+  line-height: 180px;
   background: rgba(255, 255, 255, 0.5)
     url("https://source.unsplash.com/1600x900/?star,night") no-repeat center
     center;
   background-size: cover;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
 }
+
+p {
+    text-shadow: 1.5px 1.5px black;
+    font-size: 20px;
+    color: yellow;
+    text-decoration-line: underline;
+}
+#myHeader button {
+    border-top: 1px solid #51748a;
+    background: #4fabe8;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#4fabe8));
+    background: -webkit-linear-gradient(top, #3e779d, #4fabe8);
+    background: -moz-linear-gradient(top, #3e779d, #4fabe8);
+    background: -ms-linear-gradient(top, #3e779d, #4fabe8);
+    background: -o-linear-gradient(top, #3e779d, #4fabe8);
+    padding: 13px 26px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #d4c81e;
+    font-size: 19px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+#myHeader button:hover {
+    border-top-color: #145078;
+    background: #145078;
+    color: #eb1785;
+    }
+#myHeader button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
+
+.sticky2 {
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    margin-left: 15%;
+
+    }
+      
+      /* .sticky2 + .content {
+        padding-top: 52px;
+      } */
 
 .section03::before {
   content: "";
@@ -59,31 +114,69 @@ h3 {
   z-index: -1;
   top: 0;
   left: 0;
+
   width: 100vw;
   height: 100vh;
-  background: url("https://s3.us-east-2.amazonaws.com/images-jb/downtownsunset.jpeg")
+  background: url("https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&h=350")
     no-repeat center center;
   background-size: cover;
+
 }
+
+.sticky3 {
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    color: #ddd; 
+  }
+  
+  /* .sticky3 + .content {
+    padding-top: 52px;
+  } */
 
 .section04 {
   height: 250px;
-  background-color: rgba(255, 225, 185, 1);
+  /* background-color: rgba(255, 225, 185, 1); */
+  /* top: 0; */
+  /* color: #ddd;  */
+
 }
 .section04 div {
-  opacity: 0.5;
+    margin-left: 47%;
+
+  /* opacity: 0.5; */
   height: 250px;
-  line-height: 250px;
+  line-height: 20px;
   background: url("https://source.unsplash.com/1600x900/?star,sky") no-repeat
     center center;
   background-size: cover;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 
+.sticky4 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #ddd; 
+
+
+  }
+  
+  /* .sticky4 + .content {
+    padding-top: 52px;
+  } */
+
 .section05 {
-  background: url("https://source.unsplash.com/1600x900/?star,sky") no-repeat
+    line-height: 114px;
+  background: url("https://s3.us-east-2.amazonaws.com/images-jb/downtownsunset.jpeg") no-repeat
     center center;
   background-attachment: fixed;
   background-size: cover;
 }
+
+.section05 div {
+    margin-left: 75%;
+}
+
+
