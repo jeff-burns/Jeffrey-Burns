@@ -142,11 +142,11 @@ a:active {
   
   .wrapper{
     width: 100%;
-    margin: 0 0 0 -10;
-    height: 600px;
+    margin: 0 0 0 0;
+    height: 640px;
     /* max-width: 80rem; */
     background-image: url("https://s3.us-east-2.amazonaws.com/images-jb/aspentrees.jpeg");
-    background-size: 100% 700px;
+    background-size: 100% 800px;
 
   }
   
@@ -356,7 +356,7 @@ a:active {
     position: absolute;
     /* left: 20%; */
     margin-left: -170px;
-    bottom: -280px;
+    bottom: -320px;
     z-index: -1;
       animation: move3 1.5s linear 1 forwards; 
   }

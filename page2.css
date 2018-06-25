@@ -85,6 +85,7 @@ p {
     font-family: Georgia, serif;
     text-decoration: none;
     vertical-align: middle;
+    z-index: 10;
     }
 #myHeader button:hover {
     border-top-color: #145078;
@@ -100,13 +101,9 @@ p {
     position: fixed;
     top: 20px;
     width: 100%;
-    margin-left: 15%;
-
+    /* margin-left: 15%; */
     }
-      
-      /* .sticky2 + .content {
-        padding-top: 52px;
-      } */
+
 
 .section03::before {
   content: "";
@@ -114,7 +111,6 @@ p {
   z-index: -1;
   top: 0;
   left: 0;
-
   width: 100vw;
   height: 100vh;
   background: url("https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&h=350")
@@ -123,9 +119,14 @@ p {
 
 }
 
+.section03 #myHeader2 p {
+    margin-left: 15%;
+
+}
+
 .sticky3 {
     position: fixed;
-    top: 20px;
+    top: 21px;
     width: 100%;
     color: #ddd; 
   }
@@ -168,7 +169,7 @@ p {
   } */
 
 .section05 {
-    line-height: 114px;
+    line-height: 63px;
   background: url("https://s3.us-east-2.amazonaws.com/images-jb/downtownsunset.jpeg") no-repeat
     center center;
   background-attachment: fixed;
