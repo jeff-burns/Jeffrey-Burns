@@ -356,7 +356,7 @@ a:active {
     position: absolute;
     /* left: 20%; */
     margin-left: -170px;
-    bottom: -320px;
+    bottom: -300px;
     z-index: -1;
       animation: move3 1.5s linear 1 forwards; 
   }
