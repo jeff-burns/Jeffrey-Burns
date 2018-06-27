@@ -21,7 +21,8 @@ body {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    margin: 0 0 0 89%;
+    border-bottom-style: double;
+    margin: 2% 0 0 45.48%;
     z-index: -1;
   }
   
@@ -31,9 +32,9 @@ body {
     z-index: 1; */
     /* margin-top: 7.5px; */
     display: flex;
-    margin-left: 89.3%;
-    z-index: 1;
-    margin-top: -108px;
+    margin-left: 0;
+    z-index: 2;
+    /* margin-top: -108px; */
   }
   
   .arrow-j {
@@ -45,7 +46,7 @@ body {
     /* border-width: 0px 72px 77.5px 0; */
     border-width: 0px 36px 38.75px 0;
     border-color: transparent #0700b2 transparent transparent;
-    z-index: 1;
+    z-index: 2;
   }
   
   .top-b {
@@ -61,7 +62,7 @@ body {
     /* border-width: 50px 0 50px 62px; */
     border-width: 25px 0 25px 31px;
     border-color: transparent transparent transparent #040066;
-    z-index: 1;
+    z-index: 2;
   }
   
   .bottom-b {
@@ -77,7 +78,7 @@ body {
     /* border-width: 50px 0 50px 62px; */
     border-width: 25px 0 25px 31px;
     border-color: transparent transparent transparent #040066;
-    z-index: 1;
+    z-index: 2;
   }
   
   .arrow-right {
@@ -93,7 +94,7 @@ body {
     /* border-width: 200px 0 0 30px; */
     border-width: 100px 0 0 15px;
     border-color: transparent transparent transparent #040066;
-    z-index: 1;
+    z-index: 2;
   }
   
   .arrow-left {
@@ -110,10 +111,8 @@ body {
     /* border-width: 0 0 200px 30px; */
     border-width: 0 0 100px 15px;
     border-color: transparent transparent #0700b2 transparent;
-    z-index: 1;
+    z-index: 2;
   }
-
-
 
 div {
   margin-top: 0;
@@ -123,10 +122,10 @@ div {
 }
 
 h2 {
-  /* margin-left: 1%;
-  margin-top: 1%; */
+  margin-left: 44.25%;
+  /* margin-top: 1%; */
   position: fixed;
-  color: #040066;
+  color: #665500;
 }
 
 .section01 {
@@ -139,7 +138,7 @@ h2 {
 
 .sticky {
     position: fixed;
-    top: 0;
+    top: 20px;
     width: 100%;
   }
 
@@ -239,7 +238,7 @@ p {
 
 }
 .section04 div {
-  margin-left: 47%;
+  margin: 2% 0 0 45.75%;
   /* opacity: 0.5; */
   height: 250px;
   line-height: 20px;
